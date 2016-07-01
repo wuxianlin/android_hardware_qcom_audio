@@ -2734,7 +2734,6 @@ static int in_set_parameters(struct audio_stream *stream, const char *kvpairs)
         }
     }
 
-done:
     pthread_mutex_unlock(&adev->lock);
     pthread_mutex_unlock(&in->lock);
 
